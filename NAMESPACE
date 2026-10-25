@@ -1,0 +1,7 @@
+export(movoa_generate_video)
+export(movoa_submit)
+export(movoa_status)
+export(movoa_wait)
+export(movoa_credits)
+importFrom(curl, new_handle, handle_setheaders, handle_setopt, curl_fetch_memory)
+importFrom(jsonlite, toJSON, fromJSON)

@@ -1,0 +1,15 @@
+Package: movoa
+Type: Package
+Title: Generate AI Videos with Sound with 'Movoa'
+Version: 0.1.0
+Authors@R: person("Movoa", role = c("aut", "cre"), email = "support@movoa.ai")
+Description: Unlimited AI video generator with sound: on paid plans the tenth
+    take of a shot costs what the first did, and your first clip is free to
+    make right now. Official R SDK for 'Movoa' <https://movoa.ai>: submit text
+    to video and photo to video runs with your 'Movoa' API key, wait for the
+    clip URL, and check your remaining credits.
+License: MIT + file LICENSE
+URL: https://movoa.ai/?utm_source=r-universe&utm_medium=package, https://movoa.ai/video/text-to-video, https://github.com/hanshs474/movoa-r
+BugReports: https://github.com/hanshs474/movoa-r/issues
+Imports: curl, jsonlite
+Encoding: UTF-8
